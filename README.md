@@ -1,6 +1,6 @@
 # Movie Page 🎬
 
-![Landing Page](./path/to/your/image.png) <!-- Replace with the actual path to your landing page image -->
+<img src="https://res.cloudinary.com/dwheqxjpn/image/upload/v1724125253/cipwsprxlzg7gkh7xgsn.png">
 
 ## Description
 
