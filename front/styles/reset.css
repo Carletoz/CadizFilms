@@ -1,0 +1,116 @@
+/* generalize.css */
+
+/* Reset de márgenes y rellenos */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, figure, figcaption, blockquote, textarea, pre, iframe, fieldset, legend, input, button, select, optgroup, option {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer un tamaño de fuente base y una familia de fuentes */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Establecer márgenes y rellenos por defecto */
+body, button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+}
+
+/* Colores básicos */
+body {
+    color: #333;
+    background-color: #fff;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+     padding-top: 4rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-about,
+  .footer-links,
+  .footer-social {
+    flex: 1;
+    margin: 0 20px;
+    text-align: justify;
+    text-align: center;
+  }
+  
+  .footer-about h4,
+  .footer-links h4,
+  .footer-social h4 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .footer-about p,
+  .footer-links ul {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-social img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer-bottom {
+    background-color: #23272b;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
